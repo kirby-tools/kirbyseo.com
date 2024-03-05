@@ -1,0 +1,15 @@
+{
+  "name": "johannschopplich/kirby-seo-audit",
+  "description": "State-of-the-art SEO analysis for Kirby CMS",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "license": "PROPRIETARY",
+  "homepage": "https://kirbyseo.com",
+  "authors": [
+    {
+      "name": "Johann Schopplich",
+      "email": "pkg@johannschopplich.com",
+      "homepage": "https://johannschopplich.com"
+    }
+  ]
+}
