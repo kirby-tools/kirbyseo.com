@@ -33,11 +33,6 @@ export default defineAppConfig({
           "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white",
       },
     },
-    pricing: {
-      card: {
-        highlight: "ring-gray-900 dark:ring-white",
-      },
-    },
     icons: {
       dark: "i-ri-moon-fill",
       light: "i-ri-sun-fill",

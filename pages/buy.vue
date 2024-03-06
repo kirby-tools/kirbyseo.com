@@ -29,7 +29,7 @@ defineOgImageComponent("Default", {
     <UPageHero v-bind="page.hero" />
 
     <UContainer
-      class="bg-primary-500 rounded-xl p-12"
+      class="bg-primary-500 rounded-xl p-12 shadow"
       :ui="{
         constrained: 'max-w-5xl',
       }"
@@ -40,19 +40,24 @@ defineOgImageComponent("Default", {
         <div>
           <div
             v-if="page.discount"
-            class="relative z-[1] -mb-4 flex justify-center"
+            class="relative z-[1] -mb-3.5 flex justify-center"
           >
             <div
-              class="bg-primary-300 border-primary-600 text-primary-900 rounded-lg border-2 px-3 py-1 text-sm font-medium"
+              class="bg-primary-400 border-primary-500 text-primary-800 rounded-full border px-2 py-1 text-sm font-medium"
             >
               {{ page.discount.label }}
             </div>
           </div>
-          <UPricingCard v-bind="page.plan" />
+          <UPricingCard
+            v-bind="page.plan"
+            :ui="{
+              highlight: 'ring-1 ring-primary-600 dark:ring-primary-200',
+            }"
+          />
         </div>
 
         <div>
-          <HomeLuckyUnlucky1 class="mx-auto w-3/4" />
+          <IllustrationLuckyUnlucky1 class="mx-auto w-3/4" />
         </div>
       </div>
     </UContainer>

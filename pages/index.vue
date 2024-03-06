@@ -114,7 +114,7 @@ function handleVideoClick(event: MouseEvent) {
             'text-center text-5xl !text-[#063c3c] sm:text-7xl md:text-left',
         }"
       >
-        <HomeLuckyUnlucky12 class="mx-auto w-3/4 md:w-full" />
+        <IllustrationLuckyUnlucky12 class="mx-auto w-3/4 md:w-full" />
       </ULandingCTA>
     </UContainer>
 
@@ -160,7 +160,7 @@ function handleVideoClick(event: MouseEvent) {
           <span v-html="page.cta?.title" />
         </template>
 
-        <HomeLuckyUnlucky6 class="mx-auto w-1/2" />
+        <IllustrationLuckyUnlucky6 class="mx-auto w-1/2" />
       </ULandingCTA>
     </ULandingSection>
   </div>
