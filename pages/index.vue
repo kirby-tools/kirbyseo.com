@@ -140,7 +140,6 @@ function handleVideoClick(event: MouseEvent) {
             v-for="(card, subIndex) of section.cards"
             :key="subIndex"
             v-bind="card"
-            class="flex flex-col"
           />
         </ULandingGrid>
       </template>
