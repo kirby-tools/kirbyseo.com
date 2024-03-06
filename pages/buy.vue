@@ -26,16 +26,17 @@ defineOgImageComponent("Default", {
 
 <template>
   <div v-if="page">
-    <UPageHero v-bind="page.hero" />
+    <UContainer>
+      <UPageHero v-bind="page.hero" />
+    </UContainer>
 
     <UContainer
-      class="bg-primary-500 rounded-xl p-12 shadow"
       :ui="{
         constrained: 'max-w-5xl',
       }"
     >
       <div
-        class="flex flex-col gap-16 px-4 py-6 sm:gap-y-24 sm:px-16 sm:px-6 md:grid md:grid-cols-2 md:items-center"
+        class="bg-primary-500 flex flex-col gap-16 rounded-xl px-4 py-6 shadow sm:gap-y-24 sm:p-16 md:grid md:grid-cols-2 md:items-center"
       >
         <div>
           <div
