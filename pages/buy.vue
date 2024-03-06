@@ -37,7 +37,19 @@ defineOgImageComponent("Default", {
       <div
         class="flex flex-col gap-16 px-4 py-6 sm:gap-y-24 sm:px-16 sm:px-6 md:grid md:grid-cols-2 md:items-center"
       >
-        <UPricingCard v-bind="page.plan" />
+        <div>
+          <div
+            v-if="page.discount"
+            class="relative z-[1] -mb-4 flex justify-center"
+          >
+            <div
+              class="bg-primary-300 border-primary-600 text-primary-900 rounded-lg border-2 px-3 py-1 text-sm font-medium"
+            >
+              {{ page.discount.label }}
+            </div>
+          </div>
+          <UPricingCard v-bind="page.plan" />
+        </div>
 
         <div>
           <HomeLuckyUnlucky1 class="mx-auto w-3/4" />

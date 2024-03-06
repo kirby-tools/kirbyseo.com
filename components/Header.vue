@@ -32,9 +32,9 @@ const navigation = inject<Ref<NavItem[]>>("navigation", ref([]));
     </template>
 
     <template #right>
-      <UButton label="Try" color="gray" to="/playground" class="lg:hidden" />
+      <UButton label="Try" color="gray" to="/playground" />
       <UButton
-        label="Get Your Audit"
+        label="Buy"
         icon="i-ri-arrow-right-line"
         trailing
         color="black"
