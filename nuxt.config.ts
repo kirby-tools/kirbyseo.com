@@ -34,10 +34,6 @@ export default defineNuxtConfig({
     icons: ["heroicons", "ri"],
   },
 
-  colorMode: {
-    preference: "light",
-  },
-
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md`
     "components:extend": (components) => {
