@@ -44,7 +44,7 @@ defineOgImageComponent("Default", {
             class="relative z-[1] -mb-3.5 flex justify-center"
           >
             <div
-              class="bg-primary-400 border-primary-500 text-primary-800 rounded-full border px-2 py-1 text-sm font-medium"
+              class="border-primary-600 dark:border-primary-200 rounded-full border bg-white px-2 py-1 text-xs font-medium text-gray-900 dark:bg-gray-900 dark:text-white"
             >
               {{ page.discount.label }}
             </div>
