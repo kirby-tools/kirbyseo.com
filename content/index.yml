@@ -32,12 +32,12 @@ sections:
         to: /get-started/installation
         class: "col-span-5 row-span-5 lg:mb-10"
       - title: Customizable Reports
-        description: Choose from 27 different SEO assessments like keyword density or meta description length.
+        description: Choose from 27 different SEO assessments like keyword density or meta description length. We will add more SEO checks over time.
         icon: i-ri-file-list-3-line
         to: /docs/get-started/configuration#assessments
         class: col-span-7 row-span-3
       - title: Privacy First
-        description: No external API calls, offline-first. The SEO audit is generated client-side in your Kirby Panel!
+        description: No external API calls, no hidden costs. The SEO audit is generated client-side in your Kirby Panel!
         to: /playground
         icon: i-ri-file-lock-line
         class: "col-span-5 row-span-5 lg:-mt-10 lg:mb-20"
