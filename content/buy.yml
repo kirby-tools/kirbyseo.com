@@ -29,7 +29,7 @@ faq:
       content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. Install the plugin into your Kirby project, create a new section of type `seo-audit` in any page blueprint and you're ready to generate SEO audits for your pages.
       defaultOpen: true
     - label: What if the SEO report is incorrect?
-      content: We don't guarantee that the audits are 100% accurate. The audits are based on the [`yoastseo`](https://www.npmjs.com/package/yoastseo) JavaScript package. We are not responsible for any incorrect audits. Please test the plugin in the [playground](/playground) before purchasing.
+      content: We don't guarantee that the SEO checks are 100% accurate. Some assessments are based on the [`yoastseo`](https://www.npmjs.com/package/yoastseo) JavaScript package. We are not responsible for any incorrect audits provided by it. However, we are constantly improving the plugin by adding new assessments. Please test the plugin in the [playground](/playground) before purchasing.
     - label: Which Kirby versions are supported?
       content: Kirby SEO Audit is only compatible with Kirby 4.
     - label: What does “Unlimited minor & patch updates” include?

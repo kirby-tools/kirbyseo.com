@@ -20,9 +20,6 @@ devDependencies:
   '@nuxt/content':
     specifier: ^2.12.0
     version: 2.12.0(nuxt@3.10.3)(vue@3.4.21)
-  '@nuxt/fonts':
-    specifier: ^0.0.1
-    version: 0.0.1
   '@nuxt/image':
     specifier: ^1.4.0
     version: 1.4.0
@@ -553,20 +550,6 @@ packages:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
-    dev: true
-
-  /@capsizecss/metrics@1.3.0:
-    resolution: {integrity: sha512-dcAXsrrNs2zF3MC4T5iMGsiPm1NqTSdGgYI4YG17tAXL7jxKq0eWRsOWsY/gaYMTLXllgmZ+yaiKEVQ9UmEZrA==}
-    dev: true
-
-  /@capsizecss/unpack@1.0.0:
-    resolution: {integrity: sha512-cXPI7IWQrPANXKYZwqZf53q2SuYnDkexpi9KzGNWls1NDK26lZqkE1Ry2XuMo9eGkqcmMSgVI8gJbMEgjX7bTQ==}
-    dependencies:
-      blob-to-buffer: 1.2.9
-      cross-fetch: 3.1.8
-      fontkit: 2.0.2
-    transitivePeerDependencies:
-      - encoding
     dev: true
 
   /@cloudflare/kv-asset-handler@0.3.1:
@@ -1866,43 +1849,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nuxt/fonts@0.0.1:
-    resolution: {integrity: sha512-HLEcQ8bguPsqWdf/QIgQmjd2m3wzzl4RnokQ+Mk6f6qjZMnWfEyGCdfvbCUoBdk3Sl6o+0pElTWb7bS8lcyI7A==}
-    dependencies:
-      '@nuxt/kit': 3.10.3
-      chalk: 5.3.0
-      css-tree: 2.3.1
-      defu: 6.1.4
-      fontaine: 0.4.1
-      globby: 14.0.1
-      h3: 1.11.1
-      jiti: 1.21.0
-      magic-string: 0.30.8
-      ofetch: 1.3.3
-      ohash: 1.1.3
-      pathe: 1.1.2
-      ufo: 1.4.0
-      unplugin: 1.8.2
-      unstorage: 1.10.1
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@upstash/redis'
-      - '@vercel/kv'
-      - encoding
-      - idb-keyval
-      - rollup
-      - supports-color
-      - uWebSockets.js
-    dev: true
-
   /@nuxt/image@1.4.0:
     resolution: {integrity: sha512-ZEGHjX8UZY/Wt/jWm+66QuUQA14E0dTwdi7n9BoZ1cJdinL8QdRMm3FcbwJvCj2quvD85c9LT2wvNA8l6hOMOA==}
     engines: {node: ^14.16.0 || >=16.11.0}
@@ -2939,19 +2885,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - typescript
-    dev: true
-
-  /@swc/helpers@0.4.14:
-    resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
-    dependencies:
-      tslib: 2.6.2
-    dev: true
-
-  /@swc/helpers@0.4.36:
-    resolution: {integrity: sha512-5lxnyLEYFskErRPenYItLRSge5DjrJngYKdVjRSrWfza9G6KkgHEXi0vUZiyUeMU5JfXH1YnvXZzSp8ul88o2Q==}
-    dependencies:
-      legacy-swc-helpers: /@swc/helpers@0.4.14
-      tslib: 2.6.2
     dev: true
 
   /@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.1):
@@ -4435,7 +4368,9 @@ packages:
 
   /base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+    requiresBuild: true
     dev: true
+    optional: true
 
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
@@ -4462,10 +4397,6 @@ packages:
     dev: true
     optional: true
 
-  /blob-to-buffer@1.2.9:
-    resolution: {integrity: sha512-BF033y5fN6OCofD3vgHmNtwZWRcq9NLyyxyILx9hfMy1sXYy4ojFl765hJ2lP0YaN2fuxPaLO2Vzzoxy0FLFFA==}
-    dev: true
-
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
@@ -4488,12 +4419,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
-    dev: true
-
-  /brotli@1.3.3:
-    resolution: {integrity: sha512-oTKjJdShmDuGW94SyyaoQvAjf30dZaHnjJ8uAF+u2/vGJkJbJPJAT1gDiOJP5v1Zb6f9KEyW/1HpuaWIXtGHPg==}
-    dependencies:
-      base64-js: 1.5.1
     dev: true
 
   /browserslist@4.23.0:
@@ -4778,11 +4703,6 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /clone@2.1.2:
-    resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
-    engines: {node: '>=0.8'}
-    dev: true
-
   /cluster-key-slot@1.1.2:
     resolution: {integrity: sha512-RMr0FhtfXemyinomL4hrWcYJxmX6deFdCxpJzhDttxgO1+bcCnkk+9drydLVDmAMG7NE6aN/fl4F7ucU/90gAA==}
     engines: {node: '>=0.10.0'}
@@ -4995,14 +4915,6 @@ packages:
 
   /crelt@1.0.6:
     resolution: {integrity: sha512-VQ2MBenTq1fWZUH9DJNGti7kKv6EeAuYr3cLwxUWhIu1baTaXh4Ib5W2CqHVqib4/MqbYGJqiL3Zb8GJZr3l4g==}
-    dev: true
-
-  /cross-fetch@3.1.8:
-    resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
-    dependencies:
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
     dev: true
 
   /cross-spawn@7.0.3:
@@ -5326,10 +5238,6 @@ packages:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
     dependencies:
       dequal: 2.0.3
-    dev: true
-
-  /dfa@1.2.0:
-    resolution: {integrity: sha512-ED3jP8saaweFTjeGX8HQPjeC1YYyZs98jGNZx6IiBvxW7JG5v492kamAQB3m2wop07CvU/RQmzcKr6bgcC5D/Q==}
     dev: true
 
   /didyoumean@1.2.2:
@@ -6290,34 +6198,6 @@ packages:
     resolution: {integrity: sha512-N7kHdlgsO/v+iD/dMoJKtsSqs5Dz/dXZVebRgJw23LDk+jMi/974zyiOYDziY2JPp8xivq9BmUGwIJMiuSBi7w==}
     dependencies:
       tabbable: 6.2.0
-    dev: true
-
-  /fontaine@0.4.1:
-    resolution: {integrity: sha512-Ps7KS0xFkbeZWa+ynuNQncHYz6j7gs6+SXcWWeA7+HCeidXTnIQNryCuUxQdjxBwmRBY0Or998brldt4WFwfcQ==}
-    dependencies:
-      '@capsizecss/metrics': 1.3.0
-      '@capsizecss/unpack': 1.0.0
-      magic-regexp: 0.7.0
-      magic-string: 0.30.8
-      pathe: 1.1.2
-      ufo: 1.4.0
-      unplugin: 1.8.2
-    transitivePeerDependencies:
-      - encoding
-    dev: true
-
-  /fontkit@2.0.2:
-    resolution: {integrity: sha512-jc4k5Yr8iov8QfS6u8w2CnHWVmbOGtdBtOXMze5Y+QD966Rx6PEVWXSEGwXlsDlKtu1G12cJjcsybnqhSk/+LA==}
-    dependencies:
-      '@swc/helpers': 0.4.36
-      brotli: 1.3.3
-      clone: 2.1.2
-      dfa: 1.2.0
-      fast-deep-equal: 3.1.3
-      restructure: 3.0.0
-      tiny-inflate: 1.0.3
-      unicode-properties: 1.4.1
-      unicode-trie: 2.0.0
     dev: true
 
   /foreground-child@3.1.1:
@@ -7698,17 +7578,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
-    dev: true
-
-  /magic-regexp@0.7.0:
-    resolution: {integrity: sha512-C9m5/JqFV1/CMrMFDf1PqmvMc8ohrssmlF5bdgea7nUqqn6D9xzKVTa6DIm0LReCqvEPS35o1UElmb7PmoSfHQ==}
-    dependencies:
-      estree-walker: 3.0.3
-      magic-string: 0.30.8
-      mlly: 1.6.1
-      type-level-regexp: 0.1.17
-      ufo: 1.4.0
-      unplugin: 1.8.2
     dev: true
 
   /magic-string-ast@0.3.0:
@@ -10322,10 +10191,6 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /restructure@3.0.0:
-    resolution: {integrity: sha512-Xj8/MEIhhfj9X2rmD9iJ4Gga9EFqVlpMj3vfLnV2r/Mh5jRMryNV+6lWh9GdJtDBcBSPIqzRdfBQ3wDtNFv/uw==}
-    dev: true
-
   /retry@0.12.0:
     resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
     engines: {node: '>= 4'}
@@ -11360,10 +11225,6 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /type-level-regexp@0.1.17:
-    resolution: {integrity: sha512-wTk4DH3cxwk196uGLK/E9pE45aLfeKJacKmcEgEOA/q5dnPGNxXt0cfYdFxb57L+sEpf1oJH4Dnx/pnRcku9jg==}
-    dev: true
-
   /typescript@5.4.2:
     resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
@@ -11433,13 +11294,6 @@ packages:
   /unicode-emoji-modifier-base@1.0.0:
     resolution: {integrity: sha512-yLSH4py7oFH3oG/9K+XWrz1pSi3dfUrWEnInbxMfArOfc1+33BlGPQtLsOYwvdMy11AwUBetYuaRxSPqgkq+8g==}
     engines: {node: '>=4'}
-    dev: true
-
-  /unicode-properties@1.4.1:
-    resolution: {integrity: sha512-CLjCCLQ6UuMxWnbIylkisbRj31qxHPAurvena/0iwSVbQ2G1VY5/HjV0IRabOEbDHlzZlRdCrD4NhB0JtU40Pg==}
-    dependencies:
-      base64-js: 1.5.1
-      unicode-trie: 2.0.0
     dev: true
 
   /unicode-trie@2.0.0:
