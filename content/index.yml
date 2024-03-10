@@ -24,7 +24,7 @@ sections:
       - title: The Power of Yoast SEO
         description: The SEO checks are based on Yoast SEO, which is helpful when migrating from WordPress to Kirby.
         icon: i-ri-wordpress-fill
-        to: /guide/assessments
+        to: /docs/guide/assessments
         class: col-span-7 row-span-3
       - title: Works With Every Kirby Site
         description: A Panel section that can be dropped into any Kirby site. No matter which other plugins you use.
