@@ -49,13 +49,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: [
-        "/",
-        "/playground",
-        "/buy",
-        "/docs/get-started",
-        "/api/search.json",
-      ],
+      routes: ["/", "/playground", "/buy", "/api/search.json"],
     },
   },
 });
