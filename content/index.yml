@@ -29,7 +29,7 @@ sections:
       - title: Works With Every Kirby Site
         description: A Panel section that can be dropped into any Kirby site. No matter which other plugins you use.
         icon: i-ri-plug-line
-        to: /docs/get-started/installation
+        to: /docs/get-started
         class: "col-span-5 row-span-5 lg:mb-10"
       - title: 30+ SEO Checks
         description: Choose which checks you want to perform, such as keyword density or meta description length. We are constantly adding new checks.
