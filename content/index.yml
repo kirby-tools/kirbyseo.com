@@ -16,6 +16,9 @@ hero:
       color: black
       icon: i-ri-arrow-right-line
       trailing: true
+  video:
+    path: /vid/kirby-seo-audit-demo.mp4
+    poster: /vid/kirby-seo-audit-demo-poster-start.jpg
 sections:
   - title: Your New Favorite <br class="hidden lg:block"> <span class="text-primary">Must-Have Plugin</span>
     slot: features
