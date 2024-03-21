@@ -93,8 +93,6 @@ useSeoMeta({
         <span v-html="section.description" />
       </template>
 
-      <template #video> </template>
-
       <template #features>
         <ULandingGrid class="lg:-mb-20">
           <ULandingCard
