@@ -82,7 +82,6 @@ useSeoMeta({
     <ULandingSection
       v-for="(section, index) of page.sections"
       :key="index"
-      :ui="{ container: section.slot === 'video' ? 'max-w-4xl' : undefined }"
       v-bind="section"
     >
       <template v-if="section.title" #title>
