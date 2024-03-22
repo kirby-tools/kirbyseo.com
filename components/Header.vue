@@ -15,6 +15,28 @@ const links: HeaderLink[] = [
     label: "Buy",
     to: "/buy",
   },
+  {
+    label: "Products",
+    children: [
+      {
+        label: "Kirby SEO Audit",
+        description: "State-of-the-art SEO analysis",
+        to: "/",
+      },
+      {
+        label: "Kirby Copilot",
+        to: "https://kirbycopilot.com",
+        description: "AI-powered content generation",
+        target: "_blank",
+      },
+      {
+        label: "Live Preview",
+        to: "https://kirby.tools/live-preview",
+        description: "Real-time page preview",
+        target: "_blank",
+      },
+    ],
+  },
 ];
 
 const navigation = inject<Ref<NavItem[]>>("navigation", ref([]));
