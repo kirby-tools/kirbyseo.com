@@ -8,16 +8,16 @@ Hello! First of all, thank you for reaching out to us. We look forward to hearin
 
 ## Feedback and Ideas
 
-We value your feedback and ideas for improving Kirby SEO Audit. If you have any suggestions, please feel free to reach out to us via email or preferably by creating a new discussion on our [GitHub Discussions page](https://github.com/johannschopplich/kirby-seo-audit/discussions).
+We value your feedback and ideas for improving Kirby SEO Audit. If you have any suggestions, please feel free to reach out to us via email or preferably by creating a new discussion on our [GitHub Discussions page](https://github.com/johannschopplich/kirbyseo.com/discussions).
 
 ## Support and Questions
 
 We are committed to helping you with any questions or issues you may have with Kirby SEO Audit. There are several ways to get support:
 
-::card{icon="i-ri-github-line" to="https://github.com/johannschopplich/kirby-seo-audit/discussions"}
+::card{icon="i-ri-github-line" to="https://github.com/johannschopplich/kirbyseo.com/discussions"}
 
 **GitHub Discussions**<br>
-Join the community and engage in discussions on our [GitHub Discussions page](https://github.com/johannschopplich/kirby-seo-audit/discussions).
+Join the community and engage in discussions on our [GitHub Discussions page](https://github.com/johannschopplich/kirbyseo.com/discussions).
 
 ::
 
@@ -32,10 +32,10 @@ You can ask questions and seek assistance by emailing us at [hello@kirbyseo.com]
 
 <br>
 
-::card{icon="i-ri-github-line" to="https://github.com/johannschopplich/kirby-seo-audit/issues"}
+::card{icon="i-ri-github-line" to="https://github.com/johannschopplich/kirbyseo.com/issues"}
 
 **GitHub Issues**<br>
-For reporting bugs or requesting new features, please use the [GitHub Issues page](https://github.com/johannschopplich/kirby-seo-audit/issues).
+For reporting bugs or requesting new features, please use the [GitHub Issues page](https://github.com/johannschopplich/kirbyseo.com/issues).
 
 ::
 

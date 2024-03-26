@@ -40,12 +40,12 @@ const links = [
       },
       {
         label: "GitHub Discussions",
-        to: "https://github.com/johannschopplich/kirby-seo-audit/discussions",
+        to: "https://github.com/johannschopplich/kirbyseo.com/discussions",
         target: "_blank",
       },
       {
         label: "GitHub Issues",
-        to: "https://github.com/johannschopplich/kirby-seo-audit/issues",
+        to: "https://github.com/johannschopplich/kirbyseo.com/issues",
         target: "_blank",
       },
     ],
@@ -98,7 +98,7 @@ const links = [
       <UButton
         aria-label="Kirby SEO Audit on GitHub"
         icon="i-ri-github-fill"
-        to="https://github.com/johannschopplich/kirby-seo-audit"
+        to="https://github.com/johannschopplich/kirbyseo.com"
         target="_blank"
         v-bind="$ui.button.secondary as any"
       />
