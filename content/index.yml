@@ -4,7 +4,7 @@ navigation: false
 hero:
   headline:
     label: Composer support landed!
-    to: /docs/getting-started/installation
+    to: /docs/get-started
     icon: i-logos-composer
   orientation: horizontal
   title: '<span class="text-primary">SEO Analysis</span><br> With One Click'
