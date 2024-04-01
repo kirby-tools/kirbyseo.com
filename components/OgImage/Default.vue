@@ -11,7 +11,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="flex h-full w-full flex-col justify-center bg-[#063c3c]">
+  <div class="flex h-full w-full flex-col justify-center bg-[#1B3026]">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -35,7 +35,7 @@ defineProps<{
     <div class="w-[700px] pl-[100px]">
       <p
         v-if="headline"
-        class="mb-4 text-[24px] font-semibold uppercase text-[#01ac06]"
+        class="mb-4 text-[24px] font-semibold uppercase text-[#75c932]"
       >
         {{ headline }}
       </p>
@@ -44,7 +44,7 @@ defineProps<{
       >
         <span>{{ title }}</span>
       </h1>
-      <p v-if="description" class="text-[32px] leading-tight text-[#01ac06]">
+      <p v-if="description" class="text-[32px] leading-tight text-[#75c932]">
         {{ description.slice(0, 200) }}
       </p>
     </div>

@@ -72,7 +72,7 @@ useSeoMeta({
         :ui="{
           wrapper: 'bg-primary-500 dark:bg-primary-500 ring-0',
           title:
-            'text-center text-5xl !text-[#063c3c] sm:text-7xl md:text-left',
+            'text-center text-5xl !text-[#1B3026] sm:text-7xl md:text-left',
         }"
       >
         <IllustrationLuckyUnlucky12 class="mx-auto w-3/4 md:w-full" />
@@ -109,8 +109,8 @@ useSeoMeta({
         card
         :ui="{
           wrapper: 'bg-primary-500 dark:bg-primary-500 ring-0',
-          title: 'text-5xl !text-[#063c3c] sm:text-7xl',
-          description: '!text-[#063c3c]',
+          title: 'text-5xl !text-[#1B3026] sm:text-7xl',
+          description: '!text-[#1B3026]',
         }"
       >
         <template #title>
