@@ -24,15 +24,21 @@ const links: HeaderLink[] = [
         to: "/",
       },
       {
-        label: "Kirby Copilot",
-        to: "https://kirbycopilot.com",
-        description: "AI-powered content generation",
-        target: "_blank",
-      },
-      {
         label: "Live Preview",
         to: "https://kirby.tools/live-preview",
         description: "Real-time page preview",
+        target: "_blank",
+      },
+      {
+        label: "Content Translator",
+        to: "https://kirby.tools/content-translator",
+        description: "DeepL-powered translations",
+        target: "_blank",
+      },
+      {
+        label: "Kirby Copilot",
+        to: "https://kirbycopilot.com",
+        description: "AI-powered content generation",
         target: "_blank",
       },
     ],
