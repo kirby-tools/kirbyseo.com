@@ -64,7 +64,7 @@ useSeoMeta({
       </template>
     </ULandingHero>
 
-    <UContainer>
+    <ULandingSection class="!pt-0">
       <ULandingCTA
         title="Never Slip on SEO Again"
         align="left"
@@ -77,12 +77,13 @@ useSeoMeta({
       >
         <IllustrationLuckyUnlucky12 class="mx-auto w-3/4 md:w-full" />
       </ULandingCTA>
-    </UContainer>
+    </ULandingSection>
 
     <ULandingSection
       v-for="(section, index) of page.sections"
       :key="index"
       v-bind="section"
+      class="!pt-0"
     >
       <template v-if="section.title" #title>
         <span v-html="section.title" />
