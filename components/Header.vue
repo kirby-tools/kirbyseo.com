@@ -78,9 +78,9 @@ const { data: version } = await useAsyncData("version", () =>
       <UButton label="Try it" color="gray" to="/playground" />
       <UButton
         label="Buy"
-        icon="i-ri-arrow-right-line"
+        icon="i-ri-shopping-bag-3-fill"
         trailing
-        color="black"
+        color="primary"
         to="/buy"
         class="hidden lg:flex"
       />
