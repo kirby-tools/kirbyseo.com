@@ -45,6 +45,7 @@ useSeoMeta({
               v-if="page.hero.headline.icon"
               :name="page.hero.headline.icon"
               class="pointer-events-none h-4 w-4"
+              :class="page.hero.headline.iconClass"
             />
             {{ page.hero.headline.label }}
           </span>
