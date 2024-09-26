@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { NavItem } from "@nuxt/content";
 import type { HeaderLink } from "#ui-pro/types";
+import type { NavItem } from "@nuxt/content";
 
 const links: HeaderLink[] = [
   {

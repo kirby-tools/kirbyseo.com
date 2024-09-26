@@ -38,7 +38,7 @@ defineOgImageComponent("Default", {
 </script>
 
 <template>
-  <UContainer>
+  <UContainer v-if="page">
     <UPageHeader :title="page!.title" :description="page!.description" />
 
     <UPageBody
