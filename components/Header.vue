@@ -25,17 +25,17 @@ const links: HeaderLink[] = [
         to: "/",
       },
       {
-        label: "Live Preview",
-        to: "https://kirby.tools/live-preview",
-        icon: "i-ri-presentation-fill",
-        description: "Real-time page preview",
-        target: "_blank",
-      },
-      {
         label: "Content Translator",
         to: "https://kirby.tools/content-translator",
         icon: "i-ri-translate",
         description: "Content translation in the Panel or server-side",
+        target: "_blank",
+      },
+      {
+        label: "Live Preview",
+        to: "https://kirby.tools/live-preview",
+        icon: "i-ri-presentation-fill",
+        description: "Real-time page preview",
         target: "_blank",
       },
       {
