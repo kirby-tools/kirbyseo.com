@@ -13,7 +13,7 @@ plan:
   price: $99
   highlight: true
   button:
-    label: Get better rankings
+    label: Get Better Rankings
     color: primary
     to: https://byjohann.lemonsqueezy.com/checkout/buy/639a814b-ca35-42db-9a40-026fc9274d60
   features:
