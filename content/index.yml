@@ -3,9 +3,10 @@ description: Analyze your pages, improve your content, and boost your rankings.
 navigation: false
 hero:
   headline:
-    label: "New: Kirby queries support"
-    to: /docs/get-started/configuration#keyphrase
-    icon: i-ri-braces-line
+    label: "New: Kirby 5 Support"
+    to: /changelog#whats-new
+    icon: i-logos-kirby-icon
+    iconClass: dark:invert
   orientation: horizontal
   title: '<span class="text-primary">SEO Analysis</span><br> With One Click'
   description: Kirby SEO Audit offers the power of Yoast SEO in a Kirby Panel section. Improve your content and boost your rankings by checking your pages for SEO issues.
@@ -50,7 +51,7 @@ sections:
         to: /playground
         class: col-span-7 row-span-3
     links:
-      - label: Explore the Documentation
+      - label: Build your SEO Review
         to: /docs/get-started
         color: white
         size: lg
