@@ -19,6 +19,12 @@ const links: HeaderLink[] = [
     label: "Products",
     children: [
       {
+        label: "Kirby SEO Audit",
+        description: "State-of-the-art SEO analysis",
+        icon: "i-ri-seo-fill",
+        to: "/",
+      },
+      {
         label: "Content Translator",
         to: "https://kirby.tools/content-translator",
         icon: "i-ri-translate",
@@ -31,12 +37,6 @@ const links: HeaderLink[] = [
         icon: "i-ri-sparkling-fill",
         description: "AI-powered content generation",
         target: "_blank",
-      },
-      {
-        label: "Kirby SEO Audit",
-        description: "State-of-the-art SEO analysis",
-        icon: "i-ri-seo-fill",
-        to: "/",
       },
       {
         label: "Live Preview",
